@@ -19,8 +19,4 @@
 
     </style>
   
-    <style name="Splash" parent="Theme.SplashScreen">
-        <item name="windowSplashScreenAnimatedIcon">@drawable/splash_screen</item>
-        <item name="postSplashScreenTheme">@style/Theme.AppCompat.DayNight</item>
-    </style>
 </resources>
