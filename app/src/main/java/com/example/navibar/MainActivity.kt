@@ -24,15 +24,21 @@ class MainActivity : AppCompatActivity() {
         val navHostFragment = supportFragmentManager.findFragmentById(R.id.nav_host_fragment) as NavHostFragment
         navController = navHostFragment.navController
 
- //       appBarConfiguration = AppCompatActivity(
-  //          setOf(R.id.navigation_home, R.id.navigation_upload)
- //       )
+
+        val appBarConfiguration = AppBarConfiguration(
+            setOf(
+                R.id.navigation_home,
+                R.id.navigation_upload,
+                R.id.navigation_tags,
+                //R.id.navigation_settings,
+            )
+        
+//       appBarConfiguration = AppCompatActivity(
+//          setOf(R.id.navigation_home, R.id.navigation_upload)
+//       )
 
  //       setupActionBarWithNavController(navController, appBarConfiguration)
         NavigationUI.setupWithNavController(navView, navController)
     }
 
-    override fun onSupportNavigateUp(): Boolean {
-        return navController.navigateUp() || super.onSupportNavigateUp()
-    }
 }
