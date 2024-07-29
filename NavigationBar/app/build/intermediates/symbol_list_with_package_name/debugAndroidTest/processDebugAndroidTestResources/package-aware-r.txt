@@ -1,3 +1,0 @@
-com.example.navibar.test
-style WhiteBackgroundDialogTheme
-style WhiteBackgroundTheme
