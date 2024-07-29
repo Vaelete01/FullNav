@@ -18,8 +18,4 @@
         <item name="android:colorBackground">?attr/colorPrimaryVariant</item>
         <item name="colorError">@color/Red</item>
     </style>
-    <style name="Splash" parent="Theme.SplashScreen">
-        <item name="windowSplashScreenAnimatedIcon">@drawable/splash_screen</item>-->
-        <item name="postSplashScreenTheme">@style/Theme.AppCompat.DayNight</item>
-    </style>
 </resources>
